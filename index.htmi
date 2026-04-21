@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Community</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1501696091611503');
+fbq('track', 'PageView');
+</script>
+
+
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1501696091611503&ev=PageView&noscript=1"
+/></noscript>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6a5cff, #b43cff);
+}
+
+/* Card */
+.card {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+    width: 92%;
+    max-width: 360px;
+    padding: 25px 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+    animation: fadeIn 0.6s ease;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {opacity:0; transform: translateY(20px);}
+    to {opacity:1; transform: translateY(0);}
+}
+
+/* Title */
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Info Box */
+.info-box {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 14px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.info-box p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+/* Warning */
+.warning {
+    color: #ff3b3b;
+    font-weight: 600;
+}
+
+/* Button */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background: linear-gradient(90deg, #ffb347, #ff5f6d);
+    box-shadow: 0 8px 20px rgba(255,95,109,0.5);
+    transition: 0.3s;
+    animation: pulse 1.5s infinite;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Pulse */
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
+}
+
+/* Footer */
+.note {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #777;
+}
+
+/* Mobile */
+@media (max-width: 400px) {
+    .card {
+        padding: 20px 15px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="title">🚀 Free Community</div>
+
+    <div class="subtitle">
+        Free community jahan log <b style="color:#007bff;">online skills</b> seekh rahe hain
+    </div>
+
+    <div class="info-box">
+        <p class="warning">❌ Yeh koi spam ya fake group nahi hai</p>
+        <p>📚 Learning content</p>
+        <p>💬 Real discussion</p>
+        <p>📈 Growth ideas</p>
+    </div>
+
+    <!-- Telegram Button -->
+    <a href="https://t.me/+CtZusSJgiGxkYTQ1" class="btn" target="_blank">
+        ✨ Join Now ✨
+    </a>
+
+    <div class="note">
+        *No guarantees. सिर्फ learning purpose के लिए
+    </div>
+
+</div>
+
+</body>
+</html>
