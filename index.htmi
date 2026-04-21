@@ -16,13 +16,13 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1501696091611503');
+
+fbq('init', '921005220282565');
 fbq('track', 'PageView');
 </script>
 
-
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1501696091611503&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=921005220282565&ev=PageView&noscript=1"
 /></noscript>
 
 <style>
@@ -157,7 +157,7 @@ body {
     </div>
 
     <!-- Telegram Button -->
-    <a href="https://t.me/+CtZusSJgiGxkYTQ1" class="btn" target="_blank">
+    <a href="https://t.me/+CtZusSJgiGxkYTQ1 " class="btn" target="_blank">
         ✨ Join Now ✨
     </a>
 
